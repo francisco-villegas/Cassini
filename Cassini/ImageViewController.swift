@@ -50,7 +50,7 @@ class ImageViewController: UIViewController {
         }
     }
     
-    fileprivate var imageView = UIImageView()
+    private var imageView = UIImageView()
     
     private var image: UIImage? {
         get {
